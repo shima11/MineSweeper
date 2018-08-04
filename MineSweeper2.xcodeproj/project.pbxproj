@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42C08DC1A0C6A8C005C6EF3 /* nikoniko.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C08DB1A0C6A8C005C6EF3 /* nikoniko.png */; };
+		D42C08DE1A0C7467005C6EF3 /* settingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C08DD1A0C7467005C6EF3 /* settingButton.png */; };
+		D42C08E31A0CEAF6005C6EF3 /* resetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C08E21A0CEAF6005C6EF3 /* resetButton.png */; };
+		D42C08E61A0CED6C005C6EF3 /* settingButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C08E41A0CED6C005C6EF3 /* settingButton2.png */; };
+		D42C08E71A0CED6C005C6EF3 /* resetButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = D42C08E51A0CED6C005C6EF3 /* resetButton2.png */; };
+		D4353B3019D711ED003B2DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4353B2F19D711ED003B2DB5 /* Foundation.framework */; };
+		D4353B3219D711ED003B2DB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4353B3119D711ED003B2DB5 /* CoreGraphics.framework */; };
+		D4353B3419D711ED003B2DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4353B3319D711ED003B2DB5 /* UIKit.framework */; };
+		D4353B3A19D711ED003B2DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4353B3819D711ED003B2DB5 /* InfoPlist.strings */; };
+		D4353B3C19D711ED003B2DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4353B3B19D711ED003B2DB5 /* main.m */; };
+		D4353B4019D711ED003B2DB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4353B3F19D711ED003B2DB5 /* AppDelegate.m */; };
+		D4353B4319D711EE003B2DB5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4353B4119D711EE003B2DB5 /* Main_iPhone.storyboard */; };
+		D4353B4619D711EE003B2DB5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4353B4419D711EE003B2DB5 /* Main_iPad.storyboard */; };
+		D4353B4919D711EE003B2DB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4353B4819D711EE003B2DB5 /* ViewController.m */; };
+		D4353B4B19D711EE003B2DB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4353B4A19D711EE003B2DB5 /* Images.xcassets */; };
+		D4353B5219D711EE003B2DB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4353B5119D711EE003B2DB5 /* XCTest.framework */; };
+		D4353B5319D711EE003B2DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4353B2F19D711ED003B2DB5 /* Foundation.framework */; };
+		D4353B5419D711EE003B2DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4353B3319D711ED003B2DB5 /* UIKit.framework */; };
+		D4353B5C19D711EE003B2DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4353B5A19D711EE003B2DB5 /* InfoPlist.strings */; };
+		D4353B5E19D711EE003B2DB5 /* MineSweeper2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4353B5D19D711EE003B2DB5 /* MineSweeper2Tests.m */; };
+		D4353B6919D7828B003B2DB5 /* OverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4353B6819D7828B003B2DB5 /* OverView.m */; };
+		D4353BB219DA4D5E003B2DB5 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4353BB119DA4D5E003B2DB5 /* icon1.png */; };
+		D4353BB519DA4DD3003B2DB5 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4353BB419DA4DD3003B2DB5 /* TitleViewController.m */; };
+		D4353BFB19DA9B73003B2DB5 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = D4353BFA19DA9B73003B2DB5 /* icon2.png */; };
+		D437E0771A087280002BD4C7 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = D437E0761A087280002BD4C7 /* title.png */; };
+		D47C31831A0D66DD00025784 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D47C31821A0D66DD00025784 /* playButton.png */; };
+		D47C31851A0D68B300025784 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D47C31841A0D68B300025784 /* background.png */; };
+		D47C31871A0D697900025784 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = D47C31861A0D697900025784 /* background2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4353B5519D711EE003B2DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4353B2419D711ED003B2DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4353B2B19D711ED003B2DB5;
+			remoteInfo = MineSweeper2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D42C08DB1A0C6A8C005C6EF3 /* nikoniko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nikoniko.png; sourceTree = "<group>"; };
+		D42C08DD1A0C7467005C6EF3 /* settingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingButton.png; sourceTree = "<group>"; };
+		D42C08E21A0CEAF6005C6EF3 /* resetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetButton.png; sourceTree = "<group>"; };
+		D42C08E41A0CED6C005C6EF3 /* settingButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingButton2.png; sourceTree = "<group>"; };
+		D42C08E51A0CED6C005C6EF3 /* resetButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetButton2.png; sourceTree = "<group>"; };
+		D4353B2C19D711ED003B2DB5 /* MineSweeper2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSweeper2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4353B2F19D711ED003B2DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4353B3119D711ED003B2DB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4353B3319D711ED003B2DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4353B3719D711ED003B2DB5 /* MineSweeper2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper2-Info.plist"; sourceTree = "<group>"; };
+		D4353B3919D711ED003B2DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4353B3B19D711ED003B2DB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4353B3D19D711ED003B2DB5 /* MineSweeper2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MineSweeper2-Prefix.pch"; sourceTree = "<group>"; };
+		D4353B3E19D711ED003B2DB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4353B3F19D711ED003B2DB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4353B4219D711EE003B2DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D4353B4519D711EE003B2DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D4353B4719D711EE003B2DB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4353B4819D711EE003B2DB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4353B4A19D711EE003B2DB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4353B5019D711EE003B2DB5 /* MineSweeper2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeper2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4353B5119D711EE003B2DB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4353B5919D711EE003B2DB5 /* MineSweeper2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeper2Tests-Info.plist"; sourceTree = "<group>"; };
+		D4353B5B19D711EE003B2DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4353B5D19D711EE003B2DB5 /* MineSweeper2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSweeper2Tests.m; sourceTree = "<group>"; };
+		D4353B6719D7828B003B2DB5 /* OverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverView.h; sourceTree = "<group>"; };
+		D4353B6819D7828B003B2DB5 /* OverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverView.m; sourceTree = "<group>"; };
+		D4353BB119DA4D5E003B2DB5 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		D4353BB319DA4DD3003B2DB5 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		D4353BB419DA4DD3003B2DB5 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		D4353BFA19DA9B73003B2DB5 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		D437E0761A087280002BD4C7 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		D47C31821A0D66DD00025784 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		D47C31841A0D68B300025784 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D47C31861A0D697900025784 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4353B2919D711ED003B2DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4353B3219D711ED003B2DB5 /* CoreGraphics.framework in Frameworks */,
+				D4353B3419D711ED003B2DB5 /* UIKit.framework in Frameworks */,
+				D4353B3019D711ED003B2DB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4353B4D19D711EE003B2DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4353B5219D711EE003B2DB5 /* XCTest.framework in Frameworks */,
+				D4353B5419D711EE003B2DB5 /* UIKit.framework in Frameworks */,
+				D4353B5319D711EE003B2DB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4353B2319D711ED003B2DB5 = {
+			isa = PBXGroup;
+			children = (
+				D4353B3519D711ED003B2DB5 /* MineSweeper2 */,
+				D4353B5719D711EE003B2DB5 /* MineSweeper2Tests */,
+				D4353B2E19D711ED003B2DB5 /* Frameworks */,
+				D4353B2D19D711ED003B2DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4353B2D19D711ED003B2DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4353B2C19D711ED003B2DB5 /* MineSweeper2.app */,
+				D4353B5019D711EE003B2DB5 /* MineSweeper2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4353B2E19D711ED003B2DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4353B2F19D711ED003B2DB5 /* Foundation.framework */,
+				D4353B3119D711ED003B2DB5 /* CoreGraphics.framework */,
+				D4353B3319D711ED003B2DB5 /* UIKit.framework */,
+				D4353B5119D711EE003B2DB5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4353B3519D711ED003B2DB5 /* MineSweeper2 */ = {
+			isa = PBXGroup;
+			children = (
+				D4353B3E19D711ED003B2DB5 /* AppDelegate.h */,
+				D4353B3F19D711ED003B2DB5 /* AppDelegate.m */,
+				D4353B4119D711EE003B2DB5 /* Main_iPhone.storyboard */,
+				D4353B4419D711EE003B2DB5 /* Main_iPad.storyboard */,
+				D4353BB319DA4DD3003B2DB5 /* TitleViewController.h */,
+				D4353BB419DA4DD3003B2DB5 /* TitleViewController.m */,
+				D4353B4719D711EE003B2DB5 /* ViewController.h */,
+				D4353B4819D711EE003B2DB5 /* ViewController.m */,
+				D4353B6719D7828B003B2DB5 /* OverView.h */,
+				D4353B6819D7828B003B2DB5 /* OverView.m */,
+				D4353B4A19D711EE003B2DB5 /* Images.xcassets */,
+				D437E0761A087280002BD4C7 /* title.png */,
+				D47C31841A0D68B300025784 /* background.png */,
+				D47C31861A0D697900025784 /* background2.png */,
+				D42C08DB1A0C6A8C005C6EF3 /* nikoniko.png */,
+				D42C08DD1A0C7467005C6EF3 /* settingButton.png */,
+				D42C08E21A0CEAF6005C6EF3 /* resetButton.png */,
+				D47C31821A0D66DD00025784 /* playButton.png */,
+				D42C08E41A0CED6C005C6EF3 /* settingButton2.png */,
+				D42C08E51A0CED6C005C6EF3 /* resetButton2.png */,
+				D4353BB119DA4D5E003B2DB5 /* icon1.png */,
+				D4353BFA19DA9B73003B2DB5 /* icon2.png */,
+				D4353B3619D711ED003B2DB5 /* Supporting Files */,
+			);
+			path = MineSweeper2;
+			sourceTree = "<group>";
+		};
+		D4353B3619D711ED003B2DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4353B3719D711ED003B2DB5 /* MineSweeper2-Info.plist */,
+				D4353B3819D711ED003B2DB5 /* InfoPlist.strings */,
+				D4353B3B19D711ED003B2DB5 /* main.m */,
+				D4353B3D19D711ED003B2DB5 /* MineSweeper2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4353B5719D711EE003B2DB5 /* MineSweeper2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4353B5D19D711EE003B2DB5 /* MineSweeper2Tests.m */,
+				D4353B5819D711EE003B2DB5 /* Supporting Files */,
+			);
+			path = MineSweeper2Tests;
+			sourceTree = "<group>";
+		};
+		D4353B5819D711EE003B2DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4353B5919D711EE003B2DB5 /* MineSweeper2Tests-Info.plist */,
+				D4353B5A19D711EE003B2DB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4353B2B19D711ED003B2DB5 /* MineSweeper2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4353B6119D711EE003B2DB5 /* Build configuration list for PBXNativeTarget "MineSweeper2" */;
+			buildPhases = (
+				D4353B2819D711ED003B2DB5 /* Sources */,
+				D4353B2919D711ED003B2DB5 /* Frameworks */,
+				D4353B2A19D711ED003B2DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineSweeper2;
+			productName = MineSweeper2;
+			productReference = D4353B2C19D711ED003B2DB5 /* MineSweeper2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4353B4F19D711EE003B2DB5 /* MineSweeper2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4353B6419D711EE003B2DB5 /* Build configuration list for PBXNativeTarget "MineSweeper2Tests" */;
+			buildPhases = (
+				D4353B4C19D711EE003B2DB5 /* Sources */,
+				D4353B4D19D711EE003B2DB5 /* Frameworks */,
+				D4353B4E19D711EE003B2DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4353B5619D711EE003B2DB5 /* PBXTargetDependency */,
+			);
+			name = MineSweeper2Tests;
+			productName = MineSweeper2Tests;
+			productReference = D4353B5019D711EE003B2DB5 /* MineSweeper2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4353B2419D711ED003B2DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jinsei Shima";
+				TargetAttributes = {
+					D4353B4F19D711EE003B2DB5 = {
+						TestTargetID = D4353B2B19D711ED003B2DB5;
+					};
+				};
+			};
+			buildConfigurationList = D4353B2719D711ED003B2DB5 /* Build configuration list for PBXProject "MineSweeper2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4353B2319D711ED003B2DB5;
+			productRefGroup = D4353B2D19D711ED003B2DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4353B2B19D711ED003B2DB5 /* MineSweeper2 */,
+				D4353B4F19D711EE003B2DB5 /* MineSweeper2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4353B2A19D711ED003B2DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C08E71A0CED6C005C6EF3 /* resetButton2.png in Resources */,
+				D42C08DE1A0C7467005C6EF3 /* settingButton.png in Resources */,
+				D42C08E31A0CEAF6005C6EF3 /* resetButton.png in Resources */,
+				D4353B4619D711EE003B2DB5 /* Main_iPad.storyboard in Resources */,
+				D42C08DC1A0C6A8C005C6EF3 /* nikoniko.png in Resources */,
+				D42C08E61A0CED6C005C6EF3 /* settingButton2.png in Resources */,
+				D4353B4B19D711EE003B2DB5 /* Images.xcassets in Resources */,
+				D47C31871A0D697900025784 /* background2.png in Resources */,
+				D437E0771A087280002BD4C7 /* title.png in Resources */,
+				D4353B4319D711EE003B2DB5 /* Main_iPhone.storyboard in Resources */,
+				D47C31851A0D68B300025784 /* background.png in Resources */,
+				D47C31831A0D66DD00025784 /* playButton.png in Resources */,
+				D4353BB219DA4D5E003B2DB5 /* icon1.png in Resources */,
+				D4353B3A19D711ED003B2DB5 /* InfoPlist.strings in Resources */,
+				D4353BFB19DA9B73003B2DB5 /* icon2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4353B4E19D711EE003B2DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4353B5C19D711EE003B2DB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4353B2819D711ED003B2DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4353B6919D7828B003B2DB5 /* OverView.m in Sources */,
+				D4353B4919D711EE003B2DB5 /* ViewController.m in Sources */,
+				D4353BB519DA4DD3003B2DB5 /* TitleViewController.m in Sources */,
+				D4353B4019D711ED003B2DB5 /* AppDelegate.m in Sources */,
+				D4353B3C19D711ED003B2DB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4353B4C19D711EE003B2DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4353B5E19D711EE003B2DB5 /* MineSweeper2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4353B5619D711EE003B2DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4353B2B19D711ED003B2DB5 /* MineSweeper2 */;
+			targetProxy = D4353B5519D711EE003B2DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4353B3819D711ED003B2DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4353B3919D711ED003B2DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4353B4119D711EE003B2DB5 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4353B4219D711EE003B2DB5 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D4353B4419D711EE003B2DB5 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4353B4519D711EE003B2DB5 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D4353B5A19D711EE003B2DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4353B5B19D711EE003B2DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4353B5F19D711EE003B2DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4353B6019D711EE003B2DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4353B6219D711EE003B2DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper2/MineSweeper2-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper2/MineSweeper2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4353B6319D711EE003B2DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper2/MineSweeper2-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper2/MineSweeper2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4353B6519D711EE003B2DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MineSweeper2.app/MineSweeper2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper2/MineSweeper2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MineSweeper2Tests/MineSweeper2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4353B6619D711EE003B2DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MineSweeper2.app/MineSweeper2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MineSweeper2/MineSweeper2-Prefix.pch";
+				INFOPLIST_FILE = "MineSweeper2Tests/MineSweeper2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4353B2719D711ED003B2DB5 /* Build configuration list for PBXProject "MineSweeper2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4353B5F19D711EE003B2DB5 /* Debug */,
+				D4353B6019D711EE003B2DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4353B6119D711EE003B2DB5 /* Build configuration list for PBXNativeTarget "MineSweeper2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4353B6219D711EE003B2DB5 /* Debug */,
+				D4353B6319D711EE003B2DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4353B6419D711EE003B2DB5 /* Build configuration list for PBXNativeTarget "MineSweeper2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4353B6519D711EE003B2DB5 /* Debug */,
+				D4353B6619D711EE003B2DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4353B2419D711ED003B2DB5 /* Project object */;
+}
